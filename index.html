@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Inicio</title>
+
+		<link href="css/estilo_index.css" type="text/css" rel="stylesheet">
+		<link rel="stylesheet" href="css/menu.css">
+		<link rel="stylesheet" href="css/fondoA.css">
+
+		<!-- Import Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+		<!-- Important Owl stylesheet -->
+		<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+		 
+		<!-- Default Theme -->
+		<link rel="stylesheet" href="owl-carousel/owl.theme.css">
+		
+	
+</head>
+<body>
+	
+	<!-- *****************************INICIO MENÚ ***********************  -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  		<div class="container">
+  			<div id="menu">
+		    	<ul class="lista">
+		    		<li><a href=index.html>Inicio</a></li>
+		    		<li><a href=contacto.html>Contacto</a></li>
+		    		<li><a href=ventaMateriales.html>Venta de Materiales</a></li>
+		    		<li><a href=loginAdmin.html>Login</a></li>
+		    	</ul>
+		    </div>
+    	</div>
+	</nav>
+	<!-- *****************************FIN MENÚ ***********************  -->
+
+	
+	<!-- INICIO SLIDER DEMO OWL CAROUSEL-->
+	<div class="row Dslider sombra">
+		<div class="col-md-10 col-md-offset-1">
+			<div id="owl-demo" class="owl-carousel owl-theme">
+				<div class="item"><img src="assets/img2.jpg"></div>
+				<div class="item"><img src="assets/img1.jpeg"></div>
+				<div class="item"><img src="assets/img3.jpg"></div>
+				<div class="item"><img src="assets/img4.jpeg"></div>
+			</div>
+		</div>
+	</div>
+	<!-- FIN SLIDER DEMO OWL CAROUSEL-->
+	
+<!-- ************************************************************************* -->
+	
+	<div class="pie">
+		<div class="contPie">
+			<div class="row">
+				<div class="col-md-2 cuadrado"><a href=www.instagram.com/piedrasrf/>
+					<img src="images/insta.png"></a>
+				</div> 
+				<div class="col-md-10 cuadrado"><h5>Revisa más diseños de trabajos en Instagram</h5></div> 
+			</div><br>
+
+			<div class="row">
+				<div class="col-md-2 cuadrado"><img src="images/wsp.png"></div> 
+				<div class="col-md-10 cuadrado"><h5>Haznos llegar tus consultas al número +56945355937</h5></div> 
+			</div>
+		</div>
+	</div>
+
+<!-- ********************************************************************* -->
+
+</body>
+
+
+	<!--  jQuery 1.9.1  -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	<!-- Include js plugin -->
+	<script src="owl-carousel/owl.carousel.js"></script>
+
+	<script>
+		$(document).ready(function() {
+  			$("#owl-demo").owlCarousel({
+      			navigation : true,
+      			slideSpeed : 300,
+      			paginationSpeed : 400,
+      			singleItem:true
+		  		});
+			});
+	</script>
+		
+</html>

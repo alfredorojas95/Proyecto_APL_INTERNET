@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tabla Clientes</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fondo.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/estilo_tablaClientes.css">
+	
+	
+</head>
+<body>
+
+
+    <!-- *****************************INICIO MENÚ ***********************  -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div id="menu">
+          <ul class="lista">
+            <li><a href=index.html>Inicio</a></li>
+            <li><a href=contacto.html>Contacto</a></li>
+            <li><a href=ventaMateriales.html>Venta de Materiales</a></li>
+            <li><a href=loginAdmin.html>Login</a></li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+  <!-- *****************************FIN MENÚ ***********************  -->
+
+      <!-- INICIO TABLA-->
+
+  <div class="container">
+    <div class="row contenedorContacto">
+      <div class="col-xs-12"> 
+
+        <h1>Tabla Cientes</h1>
+        <div class="table-responsive">
+          <table class="table">
+            <tbody>
+              <tr class="active">
+                <td>Nombre</td>
+                <td>Rut</td>
+                <td>Categoría</td>
+                <td>Descripción</td>
+                <td><img src="images/lapiz.png">Editar</td>
+                <td><img src="images/basu.png">Eliminar</td>
+
+              </tr>
+              
+              <tr>
+                <td class="danger">Bastián García</td>
+                <td class="warning">18.878.987-3</td>
+                <td class="active">Estacionamiento Adoquin</td>
+                <td class="success">Trabajo de 20 metros cuadrados</td>
+                <td class="active"><a href=editarDatosCliente.html><img src="images/lapiz.png"></a></td>
+                <td class="success"><a href=""><img src="images/basu.png" alt=""></a></td>
+              </tr>
+
+              <tr>
+                <td class="active">Matías Torres</td>
+                <td class="success">18.552.109-3</td>
+                <td class="warning">Quincho</td>
+                <td class="danger">Instalación Parrilla y 20 metros de piso.</td>
+                <td class="success"><a href=editarDatosCliente.html><img src="images/lapiz.png"></a></td>
+                <td class="warning"><a href=""><img src="images/basu.png" alt=""></a></td>
+              </tr>
+              
+              <tr>
+                <td class="danger">Danilo Ramirez</td>
+                <td class="warning">19.878.587-3</td>
+                <td class="active">Rebestimiento Muro</td>
+                <td class="success">Trabajo de 60 metros Lineales</td>
+                <td class="active"><a href=editarDatosCliente.html><img src="images/lapiz.png"></a></td>
+                <td class="success"><a href=""><img src="images/basu.png" alt=""></a></td>
+              </tr>  
+            </tbody>
+          </table>
+        </div>
+           <button type="submit" class="btn btn-primary"><a href=agregarCliente.html>Agregar Nuevo Registro de Cliente</a></button>
+      </div>
+    </div>
+  </div>
+      <!-- FIN TABLA-->
+
+
+
+</body>		
+</html>

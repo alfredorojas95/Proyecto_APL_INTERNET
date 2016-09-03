@@ -1,0 +1,56 @@
+*{
+	margin: 0px;
+	color: white;
+}
+
+
+#fondo1 { /* contiene a la imagen */
+	width: 130px;
+	height: 130px;
+	margin-top: 120px;
+	margin-left: 450px;
+
+}
+
+#imagen1 {
+	width: 96px;
+	height: 96px;
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 12px;
+	background-image: url(../images/agregar.png);
+}
+
+#info1 {
+	width: 180px;
+	height: 180px;
+	background-color: rgba(31,31,31,0.7);
+	opacity: 0;
+	-webkit-transition: opacity 0.2s;
+	position: absolute;
+	margin-top: -35px;
+	margin-left: -30px;
+	border-radius: 90px;
+
+}
+
+#imagen1:hover #info1{
+	opacity: 1;
+
+}
+
+#headline1 {
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 30px;
+
+}
+
+#imagen1 #info1 a {
+	text-decoration: none;
+	color: white;
+}
+
+#imagen1 hover:#headline1 {
+	margin-left: 15px;
+}

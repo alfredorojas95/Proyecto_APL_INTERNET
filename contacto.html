@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contacto</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilo_contacto.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/fondo.css">
+
+	<!-- Import Bootstrap -->
+	
+	
+</head>
+	<body>
+
+		<!-- *****************************INICIO MENÚ ***********************  -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+	  		<div class="container">
+	  			<div id="menu">
+			    	<ul class="lista">
+			    		<li><a href=index.html>Inicio</a></li>
+			    		<li><a href=contacto.html>Contacto</a></li>
+			    		<li><a href=ventaMateriales.html>Venta de Materiales</a></li>
+			    		<li><a href=loginAdmin.html>Login</a></li>
+			    	</ul>
+			    </div>
+	    	</div>
+		</nav>
+		<!-- *****************************FIN MENÚ ***********************  -->
+
+		
+	<!-- ******************************INICIO FORMULARIO**********************-->
+	<div class="container">
+		<div class="row contenedorContacto">
+			<div class="col-xs-12">				
+				<form class="form-horizontal">
+
+					<div class="row"><!-- ******Grilla título *************  -->
+						<div class="col-md-2"><img src="images/mes.png"></div> 
+						<div class="col-md-10"><h2>Contacto</h2></div> 
+					</div><br>	
+
+
+					<p style="clear:both" align="justify">Si desea contactarse con nuestra Empresa o desea realizar  un trabajo, presupuesto,  etc. Hágalo a nuestro E-Mail: administrador@piedrasrf.cl; o llamándo a nuestro número de atención en chile:  (09)  8 4816 214 (Carlos Rojas)</p><br>
+
+					<p align="justify">También lo puede hacer llenando este formulario a continuación. Agradeceremos todos sus comentarios y sugerencias. Llene el formulario  que le ofrecemos a  continuación para enviar un E-mail.</p><br>
+
+					<p align="center">¿Qué clase de comentario quiere enviar?</p>
+
+					<label class="radio-inline"><input type="radio" name="optradio">Presubuesto</label>
+					<label class="radio-inline"><input type="radio" name="optradio">Consulta</label>
+					<label class="radio-inline"><input type="radio" name="optradio">Trabajo</label>
+					<label class="radio-inline"><input type="radio" name="optradio">Comentario</label>
+
+					<p align="center">Escriba su mensaje en el siguiente recuadro</p>
+
+					<h3 align="center">Ingrese sus Datos</h3>
+
+					<div class="form-group"> 
+						<label for="inputEmail">Nombre</label>
+						<input type="email" class="form-control" placeholder="Nombre">
+					</div>
+
+					<div class="form-group"> 
+						<label for="inputEmail">Email</label>
+						<input type="email" class="form-control" placeholder="Email">
+					</div>
+		
+					<div class="form-group"> 
+						<label for="inputEmail">Teléfono</label> 
+						<input type="email" class="form-control" placeholder="Teléfono">
+					</div>
+
+					<div class="form-group">
+						<label for="comment">Mensaje:</label>					
+						<textarea class="form-control" rows="6" id="comment"></textarea>
+					</div>
+					
+					<button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+				</form>
+			</div>
+		</div>
+	</div>
+		<!-- ******************************FIN FORMULARIO************************-->
+
+
+	</body>		
+</html>

@@ -1,0 +1,63 @@
+* {
+	color: white;
+
+}
+
+/*   Fin Cabecera  */
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+
+}
+
+.Dslider {
+	margin-top: 80px;
+}
+
+@media (min-width: 600px) {
+	.pie{
+		width: 600px;
+		height: 85px;
+		margin: 0 auto;
+		margin-top: 4px;
+		background-color: rgba(31, 31, 31, 0.8);
+		border-radius: 10px;	
+	}
+
+	.contPie {
+		width: 450px;
+		height: 70px;
+		position: center;
+		margin:0 auto;
+	}
+}
+
+
+.pie .row .col-md-2 img{
+	width: 32px;
+	height: 32px;
+}
+
+@media (max-width: 600px) {/* cuando achico la pantalla*/
+
+	.pie{
+		width: 600px;
+		height: 150px;
+		margin: 0 auto;
+		margin-top: 4px;
+		background-color: rgba(31, 31, 31, 0.8);
+		border-radius: 10px;	
+	}
+
+	.contPie {
+		width: 450px;
+		height: 110px;
+		position: center;
+		margin:0 auto;
+	}
+
+}
+
